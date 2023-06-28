@@ -507,20 +507,39 @@ border-radius: 40px;
 				</div>
 
 					</div>
-    <nav>
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Feedback</a></li>
-      </ul>
-    </nav>
 		</div>
+<nav class="navbar">
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
 
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+		<li><a href="/">Channels & VODS</a></li>
+        <li><a href="/">FAQ</a></li>
+
+
+        <li class="services">
+          <a href="/">Help</a>
+
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="/">Contact us</a></li>
+            <li><a href="/">Privacy Policy</a></li>
+            <li><a href="/">Terms & Conditions</a></li>
+          </ul>
+
+        </li>
+
+      </div>
+    </ul>
+  </nav>
 
 				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-b5ded8b elementor-hidden-mobile elementor-hidden-tablet" data-id="b5ded8b" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
